@@ -152,12 +152,11 @@ public class AplicacionImc extends javax.swing.JFrame {
        
        //float x=12.5f;
    
-   float peso=Float.parseFloat(textoPeso.getText());
-   float altura=Float.parseFloat(textoAltura.getText());
+  
   
         Imc objeto=new Imc ();
-        objeto.setAltura(altura);
-        objeto.setPeso(peso);
+        objeto.setAltura(Float.parseFloat(textoPeso.getText()));
+        objeto.setPeso(Float.parseFloat(textoPeso.getText()));
    resultados.setText((objeto.calcular()));
     }//GEN-LAST:event_jButton1ActionPerformed
 
