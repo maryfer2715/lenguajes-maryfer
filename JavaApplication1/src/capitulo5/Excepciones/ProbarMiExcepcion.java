@@ -14,12 +14,12 @@ import java.util.logging.Logger;
  */
 public class ProbarMiExcepcion {
     public static void main(String[] args)  {
-        
+      try {   
        Cliente c=new Cliente();
-       ValidarEdad valida=new ValidarEdad();
-        try {
-            valida.ChecarEdadNegativa(-19);
-        } catch (ValorNoNegativoException ex) {
+       c.setEdad(-19);
+       
+            
+        } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
     }

@@ -10,7 +10,9 @@ package capitulo5.Excepciones;
  * @author T-101
  */
 public class ValorMenorDeEdadException extends Exception{
+    
     public ValorMenorDeEdadException (){
+        
             super("valor menor");
     }
     
