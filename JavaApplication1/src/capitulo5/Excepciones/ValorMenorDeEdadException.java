@@ -13,7 +13,7 @@ public class ValorMenorDeEdadException extends Exception{
     
     public ValorMenorDeEdadException (){
         
-            super("valor menor");
+            super("menor de edad!");
     }
     
 }

@@ -16,7 +16,7 @@ public class ProbarMiExcepcion {
     public static void main(String[] args)  {
       try {   
        Cliente c=new Cliente();
-       c.setEdad(-19);
+       c.setEdad(9);
        
             
         } catch (Exception ex) {
