@@ -9,11 +9,9 @@ package capitulo5.Excepciones;
  *
  * @author T-101
  */
-public class ValorMenorDeEdadException extends Exception{
-    
-    public ValorMenorDeEdadException (){
-        
-            super("menor de edad!");
+public class MenorDeEdadExeption extends Exception{
+    //solucion a la tarea!
+    public MenorDeEdadExeption(){
+        super("No puedo dar de alta a un menor de 18 años");
     }
-    
 }
